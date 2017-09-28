@@ -1,0 +1,48 @@
+(a) 
+$ git push origin master
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 393 bytes | 393.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/aduelsie/Assignment1.git
+   abcfdca..f406273  master -> master
+
+(b)
+$ git rev-list --all --count
+8
+
+(c)
+$ git log .gitignore
+Date: Wed Sep 27 16:31:42 2017
+
+(d)
+cb30d72a3d94c108f393c163a35c1cc9bf18ffca
+36a8e55e4bbdd171ab57d979e1a802d740f2db9b
+
+(e)
+1) To make sure unstable code is never added to the master and to 
+be able to manipulate the project without affecting the master branch.
+2) Gives a chance to clean up code before merging it to the master
+branch.
+
+(f)
+git log shows all the commits and pushes along with their descriptions
+and author while git status tells you if the current branch you are using
+is up-to-date and if any files have been modified
+
+(g)
+git log --follow Weapon.h
+
+(h)
+git log --grep="file"
+
+(i)
+(I) A concept when a class of object's is defined, any subclass defined can
+inherit the definitions of one or more general classes
+(II) Polymorphism is the ability to have an entity, such as a variable or object
+to have more than one form
+(III) Encapsulation combines data and functions into a class so that 
+attributes of a class are kept private and public setter and getter methods
+are used to manipulate these attributes
