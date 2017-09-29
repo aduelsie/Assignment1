@@ -21,8 +21,8 @@
  public:
    SimpleAxe() : Weapon("Simple Axe", 60.0){}
 
-   virtual ~SimpleAxe() {}
-   virtual double hit(double armor)
+   virtual ~SimpleAxe() {};
+   virtual double hit(double armor);
  };
 
  #endif //SIMPLEAXE_H

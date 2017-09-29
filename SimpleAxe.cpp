@@ -12,6 +12,6 @@
      return 0;
    }
 
-   double damage = hitpoints - armor;
+   double damage = hitPoints - armor;
    return damage;
  }
