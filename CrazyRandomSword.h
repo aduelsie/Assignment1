@@ -10,8 +10,6 @@
  #include <ctime>
  #include "Weapon.h"
 
- using namespace std;
-
  #ifndef CRAZYRANDOMSWORD_H
  #define CRAZYRANDOMSWORD_H
 
