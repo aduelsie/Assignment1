@@ -14,5 +14,5 @@
       return damage;
    }
 
-   return 0;
+   return hitPoints - 20;
  }
