@@ -9,7 +9,7 @@
  {
    double damage = hitPoints - armor;
 
-   if ((armor > 0) && (armor < 20))
+   if ((armor > 0) && (armor <= 20))
    {
       return damage;
    }
