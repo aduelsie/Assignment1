@@ -1,0 +1,11 @@
+7. The RoleGame prototype is using polymorphism because as defined earlier,
+Polymorphism is the ability to have an entity, such as a variable or object,
+to have more than one form. For example, we have the base class Weapon. This
+class enables us to define different methods of derived classes from weapons
+such as Simple Axe or Common Spear. So that it doesn't matter what weapon we
+send into the Weapon class, the correct results are always returned.
+
+It also uses encapsulation since we have Public and Protected methods and
+variables in our classes. The Weapon class is another example as it returns
+the hitpoints and names of a derived Weapon class with setter and getter
+functions, instead of being able to directly retrieve the variable.
